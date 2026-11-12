@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/jgb-yields",
+  "title": "Jgb Yields",
+  "description": "Japan government bond (JGB) yield curve MCP. Keyless.",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/jgb-yields",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-jgb-yields",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/jgb-yields/mcp"
+    }
+  ]
+}
